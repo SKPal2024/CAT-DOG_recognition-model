@@ -1,1 +1,19 @@
-# CAT-DOG_recognition-model
+🐱🐶 Cat vs Dog Recognition using TensorFlow
+Overview
+
+This project implements an image classification model that distinguishes between cats and dogs using TensorFlow and Keras. The model is built using a fully connected neural network with three hidden layers, employing ReLU activation for hidden layers and a Sigmoid activation function for the output layer.
+
+The model achieves an accuracy of approximately 80% on the validation dataset.
+
+| Layer | Type         | Filters/Units | Activation | Purpose                   |
+| ----- | ------------ | ------------- | ---------- | ------------------------- |
+| 1     | Rescaling    | -             | -          | Normalize pixel values    |
+| 2     | Conv2D       | 32            | ReLU       | Feature extraction        |
+| 3     | MaxPooling2D | -             | -          | Downsampling              |
+| 4     | Conv2D       | 64            | ReLU       | Deeper feature extraction |
+| 5     | MaxPooling2D | -             | -          | Downsampling              |
+| 6     | Conv2D       | 128           | ReLU       | High-level features       |
+| 7     | MaxPooling2D | -             | -          | Downsampling              |
+| 8     | Flatten      | -             | -          | Convert to 1D vector      |
+| 9     | Dense        | 128           | ReLU       | Fully connected layer     |
+| 10    | Dense        | 1             | Sigmoid    | Binary classification     |
