@@ -18,6 +18,9 @@ The model achieves an accuracy of approximately 80% on the validation dataset.
 | 9     | Dense        | 128           | ReLU       | Fully connected layer     |
 | 10    | Dense        | 1             | Sigmoid    | Binary classification     |
 
+⭐🌟 Add your own dataset. It can be found on online cat dog dataset  https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset
+
+
 how this works
 <img width="2880" height="1704" alt="1" src="https://github.com/user-attachments/assets/f441e16f-f456-4141-90b6-5c04b72e3d12" />
 
